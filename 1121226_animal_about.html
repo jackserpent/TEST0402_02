@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動物-關於我們</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/myall.css">
+    <style>
+        .banner{
+            height:260px;
+            background-image: url(img/tree3.jpg);
+        }
+        .img01{
+            height: 280px;
+            background-image: url(img/tiger.jpg);
+        }
+        .img02{
+            height: 280px;
+            background-image: url(img/bear2.jpg);
+        }
+        .img03{
+            height: 280px;
+            background-image: url(img/tiger3.jpg);
+        }
+        .img04{
+            height: 280px;
+            background-image: url(img/bear4.jpg);
+        }
+        .timeline-section{
+            position: relative;
+        }
+        .timeline-section::before{
+            position: absolute;
+            content: "";
+            top:10px;
+            bottom: 0px;
+            width: 5px;
+            /* background-color: var(--mycolor04); */
+            background-image: linear-gradient(180deg,rgba(0,0,0,0.05),rgba(0,0,0,0.8));
+            left: 50%;
+            transform: translate(-50%);
+        }
+        .timeline-section-pointer{
+            position: relative;
+        }
+        .timeline-section-pointer::before{
+            position: absolute;
+            content: "";
+            top: 10px;
+            width: 20px;
+            height: 20px;
+            background-color: var(--white);
+            border-radius: 50%;
+            border: 6px solid var(--mycolor04);
+        }
+        .timeline-section-pointer:hover::before{
+            width: 25px;
+            height: 25px;
+            border: 10px solid var(--mycolor02);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-success navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary fw-900" href="1121226_animal_index.html">OO動物集團</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-700">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="1121226_animal_index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="1121226_animal_about.html" target="_blank">關於我們</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  服務項目
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">購買</a></li>
+                  <li><a class="dropdown-item" href="#">領養</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">轉讓</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="1121226_animal_product_with_json.html" target="_blank">產品介紹</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+    </nav>
+    <div class="banner bg-info bg_cover"></div>
+    <div class="container">
+        <div class="timeline-section">
+            <div class="row mt-3 justify-content-center align-items-center timeline-section-pointer">
+            <div class="col-md-5 text-center">
+                <div class="text01">
+                    <h3 class="fw-900 text-danger">關於我們<small class="text-muted">About us</small></h3>
+                    <p>可以說，發達下載答應這次畫面。</p>
+                    <ul class="list-unstyled">
+                        <li>勝利也能藥。</li>
+                        <li>勝利也能藥。</li>
+                        <li>勝利也能藥。</li>
+                        <li>勝利也能藥。</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="img01 bg_cover"></div>
+            </div>
+            </div>
+            <div class="row mt-3 justify-content-center align-items-center timeline-section-pointer flex-row-reverse">
+            <div class="col-md-5 text-center">
+                <div class="text01">
+                    <h3 class="fw-900 text-primary">店家資訊<small class="text-muted">Store Info.</small></h3>
+                    <p>可以說，發達下載答應這次畫面。</p>
+                    <ul class="list-unstyled">
+                        <li>勝利也能藥。</li>
+                        <li>勝利也能藥。</li>
+                        <li>勝利也能藥。</li>
+                        <li>勝利也能藥。</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="img02 bg_cover"></div>
+            </div>
+            </div>
+            <div class="row mt-3 justify-content-center align-items-center timeline-section-pointer">
+            <div class="col-md-5 text-center">
+                <div class="text01">
+                    <h3 class="fw-900 text-danger">董事長的話<small class="text-muted">Someone Says</small></h3>
+                    <p>可以說，發達下載答應這次畫面。</p>
+                    <ul class="list-unstyled">
+                        <li>勝利也能藥。</li>
+                        <li>勝利也能藥。</li>
+                        <li>勝利也能藥。</li>
+                        <li>勝利也能藥。</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="img03 bg_cover"></div>
+            </div>
+            </div>
+            <div class="row mt-3 justify-content-center align-items-center timeline-section-pointer flex-row-reverse">
+            <div class="col-md-5 text-center">
+                <div class="text01">
+                    <h3 class="fw-900 text-primary">公司沿革<small class="text-muted">Our History</small></h3>
+                    <p>可以說，發達下載答應這次畫面。</p>
+                    <ul class="list-unstyled">
+                        <li>勝利也能藥。</li>
+                        <li>勝利也能藥。</li>
+                        <li>勝利也能藥。</li>
+                        <li>勝利也能藥。</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="img04 bg_cover"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="footer bg-dark text-white text-center fw-900 py-3 mt-3 fixed-bottom">
+        OO動物集團 版權所有
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

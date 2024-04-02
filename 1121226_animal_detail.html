@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動物-詳細介紹</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/myall.css">
+    <style>
+        .banner{
+            height:260px;
+            background-image: url(img/sun2.jpg);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-success navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary fw-900" href="1121226_animal_index.html">OO動物集團</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-700">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="1121226_animal_index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="1121226_animal_about.html" target="_blank">關於我們</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  服務項目
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">購買</a></li>
+                  <li><a class="dropdown-item" href="#">領養</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">轉讓</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="1121226_animal_product_with_json.html" target="_blank">產品介紹</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+    </nav>
+    <div class="banner bg-info bg_cover"></div>
+    <div class="container">
+        <h2 class="text-danger fw-900 mt-3">|產品詳細資訊<small class="fw-100 text-muted">Product Info.</small></h2>
+        <div class="row">
+            <div class="col-md-7">
+                <div class="myimg bg_cover" style="background-image: url(img/bear.jpg); height: 500px;"></div>
+            </div>
+            <div class="col-md-5">
+                <h2>超可愛北極熊</h2>
+                <p>北極熊是適應極寒環境的大型食肉動物，以海豹為主食。牠們主要分布在北極地區的冰川和海冰上。</p>
+                <p>單價：十萬/隻</p>
+                <p>分類：
+                    <span class="badge text-bg-success">陸地動物</span>
+                    <span class="badge text-bg-warning">大型</span>
+                    <span class="badge text-bg-danger">肉食</span>
+                </p>
+                <div class="mb-3">
+                    <label for="" class="form-label">數量</label>
+                    <input type="number" class="form-control" min="1" max="5">
+                </div>
+                <button class="btn btn-success w-100">訂購</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer bg-dark text-white text-center fw-900 py-3 mt-3">OO動物集團 版權所有</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

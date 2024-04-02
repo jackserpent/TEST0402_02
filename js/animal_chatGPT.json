@@ -1,0 +1,72 @@
+[
+    {
+        "name": "非洲象",
+        "image_url":"../img/elephone.jpg",
+        "scientific_name": "Loxodonta africana",
+        "habitat": "非洲草原和森林",
+        "description": "非洲象是世界最大的陸地動物，以其巨大的象牙和長長的鼻子著稱。牠們生活在非洲各地的草原和森林中。"
+    },
+    {
+        "name": "北極熊",
+        "image_url":"../img/bear.jpg",
+        "scientific_name": "Ursus maritimus",
+        "habitat": "北極地區",
+        "description": "北極熊是適應極寒環境的大型食肉動物，以海豹為主食。牠們主要分布在北極地區的冰川和海冰上。"
+    },
+    {
+        "name": "孟加拉虎",
+        "image_url":"../img/tiger2.jpg",
+        "scientific_name": "Panthera tigris tigris",
+        "habitat": "印度次大陸",
+        "description": "孟加拉虎是虎的亞種之一，分布在印度次大陸的森林和草原。牠們是大型而優雅的貓科動物。"
+    },
+    {
+        "name": "澳洲袋熊",
+        "image_url":"../img/Koala.jpg",
+        "scientific_name": "Phascolarctos cinereus",
+        "habitat": "澳大利亞",
+        "description": "澳洲袋熊是澳大利亞特有的有袋類動物，以尤加利樹葉為食。牠們將幼兒放在腹部的袋中照顧。"
+    },
+    {
+        "name": "非洲獅",
+        "image_url":"../img/lion.jpg",
+        "scientific_name": "Panthera leo",
+        "habitat": "非洲草原和疏林地帶",
+        "description": "非洲獅是社會性大型貓科動物，生活在非洲草原和疏林地帶。雄性通常有壯觀的鬃毛。"
+    },
+    {
+        "name": "亞馬遜鸚鵡",
+        "image_url":"../img/bird.jpg",
+        "scientific_name": "Amazona",
+        "habitat": "南美亞馬遜雨林",
+        "description": "亞馬遜鸚鵡是南美洲熱帶雨林的居民，以其豐富的羽毛和善於模仿聲音而聞名。牠們是社交性的鳥類。"
+    },
+    {
+        "name": "印度大犀牛",
+        "image_url":"../img/rhino.jpg",
+        "scientific_name": "Rhinoceros unicornis",
+        "habitat": "印度、尼泊爾",
+        "description": "印度大犀牛是世界上體型第二大的犀牛，有一個單一的角。牠們主要分布在印度和尼泊爾的草原和沼澤地帶。"
+    },
+    {
+        "name": "橙翅藍鸚鵡",
+        "image_url":"../img/Ara ararauna.jpg",
+        "scientific_name": "Ara ararauna",
+        "habitat": "南美洲",
+        "description": "橙翅藍鸚鵡是南美洲熱帶森林的居民，以其鮮豔的羽毛和社交性格而受到喜愛。牠們是善於飛行的鳥類。"
+    },
+    {
+        "name": "亞馬遜河豚",
+        "image_url":"../img/Amazon river dolphin.jpg",
+        "scientific_name": "Inia geoffrensis",
+        "habitat": "亞馬遜河流域",
+        "description": "亞馬遜河豚是淡水豚科動物，生活在南美洲亞馬遜河流域的河流和湖泊中。牠們以魚類為食，是溫和的生物。"
+    },
+    {
+        "name": "長頸鹿",
+        "image_url":"../img/Giraffa.jpg",
+        "scientific_name": "Giraffa camelopardalis",
+        "habitat": "非洲草原和森林",
+        "description": "長頸鹿以其極長的脖子和豐富的斑點而著稱。牠們生活在非洲草原和森林中，以樹葉為食。"
+    }
+]
